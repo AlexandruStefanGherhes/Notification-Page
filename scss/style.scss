@@ -151,7 +151,9 @@ body {
         border-radius: 3px;
         color: $darkGreyBlue;
         padding: 10px;
-        width: 93%;
+        min-width: 85%;
+        width: 85%;
+        // max-width: 91%;
 
         &:hover {
           background-color: $lightBlue2;
@@ -193,7 +195,15 @@ body {
     margin-top: 7px;
   }
   .main {
-    max-width: 65vw;
+    max-width: 62vw;
+    .main__section {
+      .section__post {
+        .post__body {
+          min-width: 90%;
+          width: 90%;
+        }
+      }
+    }
   }
 }
 
@@ -203,5 +213,13 @@ body {
   }
   .main {
     max-width: 42vw;
+    .main__section {
+      .section__post {
+        .post__body {
+          min-width: 90%;
+          width: 91%;
+        }
+      }
+    }
   }
 }

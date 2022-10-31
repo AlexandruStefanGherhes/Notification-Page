@@ -168,7 +168,8 @@ body {
   border-radius: 3px;
   color: hsl(219deg, 12%, 42%);
   padding: 10px;
-  width: 93%;
+  min-width: 85%;
+  width: 85%;
 }
 .main__section .section__post .post__body:hover {
   background-color: hsl(211deg, 68%, 94%);
@@ -201,7 +202,11 @@ body {
     margin-top: 7px;
   }
   .main {
-    max-width: 65vw;
+    max-width: 62vw;
+  }
+  .main .main__section .section__post .post__body {
+    min-width: 90%;
+    width: 90%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -210,5 +215,9 @@ body {
   }
   .main {
     max-width: 42vw;
+  }
+  .main .main__section .section__post .post__body {
+    min-width: 90%;
+    width: 91%;
   }
 }/*# sourceMappingURL=style.css.map */
