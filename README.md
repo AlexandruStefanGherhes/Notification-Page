@@ -37,8 +37,8 @@ Mobile version
 
 ### Links
 
-- Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Sign-up-component.git)
-- Live Site URL: [Vercel Live URL](https://sign-up-component-rust.vercel.app/)
+- Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Notification-Page.git)
+- Live Site URL: [Vercel Live URL](https://vercel.com/baroush/notification-page)
 
 ## My process
 
