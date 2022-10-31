@@ -38,7 +38,7 @@ Mobile version
 ### Links
 
 - Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Notification-Page.git)
-- Live Site URL: [Vercel Live URL](https://vercel.com/baroush/notification-page)
+- Live Site URL: [Vercel Live URL](https://notification-page-psi.vercel.app/)
 
 ## My process
 
