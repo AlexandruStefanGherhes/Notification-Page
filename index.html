@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a232ea0758.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main__notifications">
+        <h3 class="notifications__title">
+          Notifications <span class="title__number">3</span>
+        </h3>
+        <a href="#" class="notifications__read">Mark all as read</a>
+      </div>
+      <section class="main__section">
+        <div class="section__post">
+          <div class="post__title">
+            <div class="title__user">
+              <img
+                class="user__picture"
+                src="/assets/images/avatar-mark-webber.webp"
+                alt=""
+              />
+              <div class="user__text">
+                <p>
+                  <span>Mark Webber</span> reacted to your recent post
+                  <strong class="strategies"
+                    >My first tournament today!<i
+                      ><i class="fa-solid fa-circle"></i></i
+                  ></strong>
+                </p>
+                <p>1m ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="post__body">
+            Congratulations on your first tournament buddy!
+          </div>
+        </div>
+        <div class="section__post">
+          <div class="post__title">
+            <div class="title__user">
+              <img
+                class="user__picture"
+                src="/assets/images/avatar-angela-gray.webp"
+                alt=""
+              />
+              <div class="user__text angela">
+                <p>
+                  <span>Angela Gray</span> followed you<i
+                    ><i class="fa-solid fa-circle"></i
+                  ></i>
+                </p>
+                <p>5m ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section__post">
+          <div class="post__title">
+            <div class="title__user">
+              <img
+                class="user__picture"
+                src="/assets/images/avatar-jacob-thompson.webp"
+                alt=""
+              />
+              <div class="user__text">
+                <p>
+                  <span>Jacob Thompson</span> has joined your group
+                  <a href="#" class="chess"
+                    >Chess Club <i><i class="fa-solid fa-circle"></i></i
+                  ></a>
+                </p>
+                <p>1 day ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="post__body">Thank you for having me boys.</div>
+        </div>
+        <div class="section__post active open">
+          <div class="post__title">
+            <div class="title__user">
+              <img
+                class="user__picture"
+                src="/assets/images/avatar-rizky-hasanuddin.webp"
+                alt=""
+              />
+              <div class="user__text">
+                <p><span>Rizky Hasanuddin</span> sent you a private message</p>
+                <p>5 days ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="post__body">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </div>
+        </div>
+        <div class="section__post kimberley__post active">
+          <div class="post__title">
+            <div class="title__user">
+              <img
+                class="user__picture"
+                src="/assets/images/avatar-kimberly-smith.webp"
+                alt=""
+              />
+              <div class="user__text">
+                <p><span>Kimberly Smith</span> commented on your picture</p>
+                <p>1 week ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="post__img kimberly__img">
+            <img src="/assets/images/image-chess.webp" alt="" />
+          </div>
+        </div>
+        <div class="section__post active">
+          <div class="post__title">
+            <div class="title__user">
+              <img
+                class="user__picture"
+                src="/assets/images/avatar-nathan-peterson.webp"
+                alt=""
+              />
+              <div class="user__text">
+                <p class="nathan">
+                  <span>Nathan Peterson</span> reacted to your recent post
+                  <strong class="strategies"
+                    >5 end-game strategies to increase your win rate</strong
+                  >
+                </p>
+                <p>2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="post__body">Really well put togheter guide, kuddos.</div>
+        </div>
+        <div class="section__post active">
+          <div class="post__title">
+            <div class="title__user">
+              <img
+                class="user__picture"
+                src="/assets/images/avatar-anna-kim.webp"
+                alt=""
+              />
+              <div class="user__text anna">
+                <p>
+                  <span>Anna Kim </span>left the group
+                  <a href="#" class="chess">Chess Club</a>
+                </p>
+                <p>1m ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="post__body">
+            Even my grandma can play better chess than this guys... Cya losers!
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
